@@ -1,6 +1,7 @@
 /* eslint-disable react/react-in-jsx-scope */
 import Head from 'next/head'
 import Link from 'next/link'
+import { useColorMode } from '@chakra-ui/react'
 
 import { Navbar } from '../components/navbar'
 import HeroSection from '../components/hero'
@@ -16,7 +17,7 @@ export default function Home() {
         <title>Dev Jedo | Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
+      {/* <Navbar /> */}
       <HeroSection />
       <Services />
       <Skills />

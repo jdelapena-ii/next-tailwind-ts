@@ -9,8 +9,8 @@ export const Navbar = () => {
   };
 
   return (
-    <>
-      <nav className='flex flex-wrap items-center p-1 px-3 bg-green-400'>
+    // <>
+      <nav className='bg-green-400 w-96'>
         <Link href='/'>
           <a className='inline-flex items-center mr-4'>
             <svg
@@ -50,7 +50,7 @@ export const Navbar = () => {
         <div
           className={`${
             active ? '' : 'hidden'
-          }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
+          }   w-screen sm:inline-flex sm:flex-grow sm:w-auto`}
         >
           <div className='flex flex-col items-start w-full lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto lg:items-center lg:h-auto'>
             <Link href='/#services'>
@@ -71,6 +71,6 @@ export const Navbar = () => {
           </div>
         </div>
       </nav>
-    </>
+    // </>
     )
 }
