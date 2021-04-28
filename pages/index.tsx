@@ -9,6 +9,7 @@ import Footer from '../components/footer'
 import Services from '../components/services'
 import Skills from '../components/skills'
 import Projects from '../components/projects'
+import About from '../components/about'
 
 export default function Home() {
   return (
@@ -17,12 +18,13 @@ export default function Home() {
         <title>Dev Jedo | Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <Navbar /> */}
-      <HeroSection />
+      <Navbar />
+      <About />
+      {/* <HeroSection />
       <Services />
       <Skills />
       <Projects />
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }

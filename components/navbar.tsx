@@ -1,21 +1,21 @@
-import Link from 'next/link'
-import { useState } from 'react'
+import Link from 'next/link';
+import { useState } from 'react';
 
 export const Navbar = () => {
-    const [active, setActive] = useState(false);
+  const [active, setActive] = useState(false);
 
   const handleClick = () => {
     setActive(!active);
   };
 
   return (
-    // <>
-      <nav className='bg-green-400 w-96'>
+    <>
+      <nav className='sticky top-0 z-20 flex flex-wrap items-center p-2 bg-green-400 '>
         <Link href='/'>
           <a className='inline-flex items-center mr-4'>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="w-16 h-16 ml-6"
+              className="w-12 ml-3 h-14 md:ml-6"
               x="0"
               y="0"
               enableBackground="new 0 0 94.504 94.504"
@@ -50,7 +50,7 @@ export const Navbar = () => {
         <div
           className={`${
             active ? '' : 'hidden'
-          }   w-screen sm:inline-flex sm:flex-grow sm:w-auto`}
+          }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
         >
           <div className='flex flex-col items-start w-full lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto lg:items-center lg:h-auto'>
             <Link href='/#services'>
@@ -68,9 +68,14 @@ export const Navbar = () => {
                 Projects
               </a>
             </Link>
+            <Link href='/#about'>
+              <a className='items-center justify-center w-full px-3 py-2 font-bold text-white rounded lg:inline-flex lg:w-auto hover:bg-green-600 hover:text-white'>
+                About Me
+              </a>
+            </Link>
           </div>
         </div>
       </nav>
-    // </>
-    )
-}
+    </>
+  );
+};
