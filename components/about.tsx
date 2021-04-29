@@ -1,8 +1,10 @@
 import Image from 'next/image'
+import { Button, useColorMode, useColorModeValue } from '@chakra-ui/react'
 
 export default function About() {
+    const { toggleColorMode } = useColorMode();
     return (
-        <section className="w-full max-w-4xl min-h-screen m-auto" id="about">
+        <section className="justify-center max-w-4xl min-h-screen m-auto" id="about">
             <div className="items-center min-h-screen md:flex">
                 <div className="w-auto h-auto m-4">
                     <Image
@@ -15,6 +17,7 @@ export default function About() {
                 </div>
                 <div className="flex-grow flex-shrink m-8">
                     <h2 className="text-4xl">Hello 👋🏽</h2>
+                    <Button onClick={toggleColorMode}>Dark Mode</Button>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
                     necessitatibus, ducimus quas ea pariatur esse sequi iusto
