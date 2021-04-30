@@ -9,7 +9,7 @@ const GastbyIcon = ({ color }) => (
 );
 
 GastbyIcon.propTypes = {
-  color: PropTypes.string.isRequired
+  color: PropTypes.string
 };
 
 export default GastbyIcon;

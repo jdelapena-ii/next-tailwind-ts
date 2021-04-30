@@ -11,7 +11,7 @@ const ReactIcon = ({ color }) => (
 );
 
 ReactIcon.propTypes = {
-  color: PropTypes.string.isRequired
+  color: PropTypes.string
 };
 
 export default ReactIcon;

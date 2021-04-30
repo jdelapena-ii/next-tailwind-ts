@@ -9,7 +9,7 @@ const NextIcon = ({ color }) => (
 );
 
 NextIcon.propTypes = {
-  color: PropTypes.string.isRequired
+  color: PropTypes.string
 };
 
 export default NextIcon;

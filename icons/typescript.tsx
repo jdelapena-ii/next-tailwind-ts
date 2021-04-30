@@ -8,7 +8,7 @@ const TypeScriptIcon = ({ color }) => (
 );
 
 TypeScriptIcon.propTypes = {
-  color: PropTypes.string.isRequired
+  color: PropTypes.string
 };
 
 export default TypeScriptIcon;

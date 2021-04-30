@@ -10,7 +10,7 @@ const CssIcon = ({ color }) => (
 );
 
 CssIcon.propTypes = {
-  color: PropTypes.string.isRequired
+  color: PropTypes.string
 };
 
 export default CssIcon;

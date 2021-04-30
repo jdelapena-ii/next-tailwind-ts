@@ -8,7 +8,7 @@ const HtmlIcon = ({ color }) => (
 );
 
 HtmlIcon.propTypes = {
-  color: PropTypes.string.isRequired
+  color: PropTypes.string
 };
 
 export default HtmlIcon;

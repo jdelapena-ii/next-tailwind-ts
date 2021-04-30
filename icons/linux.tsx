@@ -10,7 +10,7 @@ const LinuxIcon = ({ color }) => (
 );
 
 LinuxIcon.propTypes = {
-  color: PropTypes.string.isRequired
+  color: PropTypes.string
 };
 
 export default LinuxIcon;

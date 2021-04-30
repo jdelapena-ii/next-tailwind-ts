@@ -9,7 +9,7 @@ const GrapqlIcon = ({ color }) => (
 );
 
 GrapqlIcon.propTypes = {
-  color: PropTypes.string.isRequired
+  color: PropTypes.string
 };
 
 export default GrapqlIcon;

@@ -9,7 +9,7 @@ const GitIcon = ({ color }) => (
 );
 
 GitIcon.propTypes = {
-  color: PropTypes.string.isRequired
+  color: PropTypes.string
 };
 
 export default GitIcon;

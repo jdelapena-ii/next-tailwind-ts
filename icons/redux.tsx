@@ -9,7 +9,7 @@ const ReduxIcon = ({ color }) => (
 );
 
 ReduxIcon.propTypes = {
-  color: PropTypes.string.isRequired
+  color: PropTypes.string
 };
 
 export default ReduxIcon;

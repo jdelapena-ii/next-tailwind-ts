@@ -9,7 +9,7 @@ const JSIcon = ({ color }) => (
 );
 
 JSIcon.propTypes = {
-  color: PropTypes.string.isRequired
+  color: PropTypes.string
 };
 
 export default JSIcon;
