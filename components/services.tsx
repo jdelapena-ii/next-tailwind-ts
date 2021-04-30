@@ -1,12 +1,12 @@
 export default function Services() {
     return (
         <section className="w-full max-w-6xl min-h-screen py-12 m-auto" >
-            <div className="items-center justify-center min-h-screen mx-8" id="services">
+            <div className="min-h-screen mx-8 " id="services">
                 <div className="mb-10 text-center md:mb-20">
                     <h2 className="text-2xl" >Digitize your business</h2>
                     <p>I will help you create a remarkable first impression with elegant designs</p>
                 </div>
-                <div className="grid-cols-3 md:grid gap-x-8">
+                <div className="grid-cols-3 md:grid gap-x-12">
                     <div className="my-4">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +15,7 @@ export default function Services() {
                             x="0"
                             y="0"
                             viewBox="0 0 48 48"
-                            className="h-36 w-36"
+                            className="ml-24 h-36 w-36"
                             >
                             <path fill="#444" d="M47 11V6a2 2 0 00-2-2H3a2 2 0 00-2 2v5h46z"></path>
                             <path fill="#606060" d="M45 43H15V11h32v30a2 2 0 01-2 2z"></path>
@@ -34,8 +34,8 @@ export default function Services() {
                             <path fill="#EFD358" d="M24 32H31V34H24z"></path>
                             <path fill="#E86C60" d="M20 38H25V40H20z"></path>
                         </svg>
-                        <h2>Web Development</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                        <h2 className="my-4 text-2xl font-bold text-center">Web Development</h2>
+                        <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
                             quasi earum, debitis exercitationem quod labore quae, saepe
                             voluptatum fugiat placeat iste, numquam maxime? Aliquam
                             explicabo, reiciendis corrupti voluptatum eum esse?
@@ -50,7 +50,7 @@ export default function Services() {
                             version="1.1"
                             viewBox="0 0 64 64"
                             xmlSpace="preserve"
-                            className="w-36 h-36"
+                            className="ml-24 w-36 h-36"
                             >
                             <path
                                 fill="#CAEAE9"
@@ -84,8 +84,8 @@ export default function Services() {
                             <path fill="#3A4249" d="M33 47.999H35V49.999H33z"></path>
                             <path fill="#3A4249" d="M37 47.999H39V49.999H37z"></path>
                         </svg>
-                        <h2>Responsive Web Design</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                        <h2 className="my-4 text-2xl font-bold text-center">Responsive Design</h2>
+                        <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
                             quasi earum, debitis exercitationem quod labore quae, saepe
                             voluptatum fugiat placeat iste, numquam maxime? Aliquam
                             explicabo, reiciendis corrupti voluptatum eum esse?
@@ -99,7 +99,7 @@ export default function Services() {
                             version="1.1"
                             viewBox="0 0 512 512"
                             xmlSpace="preserve"
-                            className="w-36 h-36"
+                            className="ml-24 w-36 h-36"
                             >
                             <path fill="#CDCCCA" d="M200.3 372.7H311.3V450H200.3z"></path>
                             <path fill="#E6E4E5" d="M158.7 439.5H352.9V457.1H158.7z"></path>
@@ -159,8 +159,8 @@ export default function Services() {
                                 d="M72.9 272.2H218.70000000000002V286.2H72.9z"
                             ></path>
                         </svg>
-                        <h2>PSD to HTML</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+                        <h2 className="my-4 text-2xl font-bold text-center">PSD to HTML</h2>
+                        <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
                             quasi earum, debitis exercitationem quod labore quae, saepe
                             voluptatum fugiat placeat iste, numquam maxime? Aliquam
                             explicabo, reiciendis corrupti voluptatum eum esse?
