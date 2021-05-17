@@ -18,16 +18,15 @@ export default function Skills() {
                 <HtmlIcon />
                 <CssIcon />
                 <JSIcon />
-                <ReactIcon color="#00BFFF" />
+                <ReactIcon />
                 <ReduxIcon />
-                <TypeScriptIcon color="blue" />
+                <TypeScriptIcon />
                 <NextIcon />
                 <GatsbyIcon />
                 <GraphqlIcon />
                 <GitIcon />
                 <GithubIcon />
                 <LinuxIcon />
-                
             </div>
         </section>    
     )
