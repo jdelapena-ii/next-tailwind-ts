@@ -21,7 +21,7 @@ export default function Home() {
       <Navbar />
       <About />
       <Services />
-      <Skills />
+      {/* <Skills /> */}
       {/* <HeroSection />
       <Projects />
       <Footer /> */}
