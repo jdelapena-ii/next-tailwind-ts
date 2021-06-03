@@ -11,6 +11,8 @@ import GithubIcon from '../icons/github'
 import LinuxIcon from '../icons/linux'
 import JSIcon from '../icons/javascript'
 
+import Image from 'next/image'
+
 export default function Skills() {
     return (
         <section className="max-w-6xl min-h-screen m-auto" id="about">
