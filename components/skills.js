@@ -11,7 +11,6 @@ import GithubIcon from '../icons/github'
 import LinuxIcon from '../icons/linux'
 import JSIcon from '../icons/javascript'
 
-import Image from 'next/image'
 
 export default function Skills() {
     return (

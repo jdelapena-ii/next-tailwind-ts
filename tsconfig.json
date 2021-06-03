@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "components/skills.js", "components/services.js", "components/projects.js", "components/navbar.js", "components/hero.js", "components/footer.js", "components/about.js"  ],
   "exclude": [
     "node_modules"
   ]
