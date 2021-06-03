@@ -16,13 +16,15 @@ import Image from 'next/image'
 export default function Skills() {
     return (
         <section className="max-w-6xl min-h-screen m-auto" id="about">
-            <div className="min-h-screen grid-cols-6 grid-rows-3 gap-x-16 gap-y-12 justify-items-center md:grid">
+            <div className="min-h-screen gap-8 md:flex justify-items-center">
                 <HtmlIcon />
                 <CssIcon />
                 <JSIcon />
                 <ReactIcon />
                 <ReduxIcon />
                 <TypeScriptIcon />
+            </div>
+            <div className="min-h-screen gap-8 md:flex justify-items-center">
                 <NextIcon />
                 <GatsbyIcon />
                 <GraphqlIcon /> 
